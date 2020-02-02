@@ -1,0 +1,10 @@
+package lm;
+message helloworld
+{
+   required int32     id = 1;  // ID
+   required string    str = 2;  // str
+   optional int32     opt = 3;  //optional field
+   optional int32     testjid = 4;
+}
+
+//packageName.MessageName.proto  lm.helloworld.proto 文件命名规范
