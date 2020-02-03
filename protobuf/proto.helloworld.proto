@@ -1,4 +1,8 @@
-package lm;
+
+
+syntax = "proto3";
+
+package proto;
 message helloworld
 {
    required int32     id = 1;  // ID
@@ -7,4 +11,4 @@ message helloworld
    optional int32     testjid = 4;
 }
 
-//packageName.MessageName.proto  lm.helloworld.proto 文件命名规范
+//packageName.MessageName.proto  proto.helloworld.proto 文件命名规范

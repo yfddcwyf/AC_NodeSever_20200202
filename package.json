@@ -14,6 +14,9 @@
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.2",
+    "protobufjs": "^6.8.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
     "socket.io": "^2.3.0"
   }
 }
