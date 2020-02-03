@@ -6,7 +6,9 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var main = require('./test/main')
 var test = require('./test/test');
+
 var app = express();
 
 // view engine setup
@@ -38,4 +40,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+app.listen(8888)
+var testpro = require('./test/testProto')

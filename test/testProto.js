@@ -7,7 +7,8 @@ const req = {
 }
 api.getStudentList(req).then((res) => {
     console.log(res)
-}).catch(() => {
+}).catch((err) => {
     // ...
     console.log('catch ***')
+    console.log('xxx', err)
 })
